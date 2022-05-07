@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@300;400;700&family=Roboto:wght@500;900&display=swap');
+
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #9900ff 16.62%, #512a98 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-around;
+    padding: 22px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+
+.conteudo {
+    border-top: 0.4px solid #fff;
+    margin-bottom: 36px;
+}    
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.conteudo-principal-escrito-titulo {
+    font-size: 58px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.conteudo-principal-escrito-titulo-subtitulo {
+    font-size: 26px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.conteudo-principal-escrito-titulo-botao {
+    border-radius: 30px;
+    background-color: #407b22;
+    width: 140px;
+    height: 45px;
+    font-family: 'poppins';
+    font-size: 16px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(38, 84, 37, 0.25);
+}
+
+.conteudo-principal-escrito-titulo-botao:hover{
+    background-color: #6bc041;
+}
+
+.conteudo-principal-imagem {
+    height: 420px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 1px solid #fff;
+    padding-top: 36px;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: azure;
+}
+
+.conteudo-secundario-paragrafo {
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: azure;
+}
+
+.rodape {
+    padding: 30px;
+    border-top: 1px solid #fff;
+}
+
+.rodape-imagem {
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
